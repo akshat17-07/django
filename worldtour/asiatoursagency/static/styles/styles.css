@@ -1,0 +1,12 @@
+img{
+    width: 500px;
+    height: 500px;
+}
+
+body{
+    font: Arial;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding:20px;
+}

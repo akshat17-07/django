@@ -1,16 +1,20 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asia Tours</title>
+    <script src="{% static 'js/script.js'%}"></script>
+    <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
 </head>
 <body>
+    <img src="{% static 'images/abc.png' %}" alt="Chess">
     <h1>Asia Tours for June 2024</h1>
     <ul>
         {% for tour in tours%}
         <li> {{tour}}</li>
-        {%endfor%}
+        {% endfor %}
     </ul>
 </body>
 </html>
