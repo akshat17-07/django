@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "asiatoursagency.apps.AsiatoursagencyConfig",
+    "forms.apps.FormsConfig",
 ]
 
 MIDDLEWARE = [
